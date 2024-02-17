@@ -9,7 +9,8 @@ function App() {
     <div className="App">
       <Header />
       <Sidebar />
-      <Button>Testing</Button>
+      <Button>default</Button>
+      <Button theme="pink">Pink</Button>
     </div>
   );
 }
