@@ -1,27 +1,17 @@
 import styled from "styled-components";
 
-const theme = {
-  blue: {
-    default: "#3f51b5",
-    hover: "#283593",
-  },
-  pink: {
-    default: "#e91e63",
-    hover: "#ad1457",
-  },
-};
-
 const Button = styled.button `
-  background-color: ${(props) => theme[props.theme].default};
-  outline: 0;
-  border: 0;
-  border-radius: 999px;
-  padding: 10px 15px;
+  border: 1px solid #000;
+  background-color: #000;
   color: white;
+
+  padding: 10px 15px;
+  border-radius: 999px;
 `;
 
-Button.defaultProps = {
-  theme: "blue",
-};
+const OutlinedButton = styled(Button) `
+  background-color: transparent;
+  color: #000;
+`;
   
-export default Button;
+export default Button + OutlinedButton;
