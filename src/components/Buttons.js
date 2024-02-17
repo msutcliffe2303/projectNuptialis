@@ -17,4 +17,4 @@ Button.defaultProps = {
   theme: "blue",
 };
   
-  export default Buttons;
+export default Button;
