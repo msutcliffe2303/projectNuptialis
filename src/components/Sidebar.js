@@ -1,4 +1,4 @@
-function Siderbar() {
+function Sidebar() {
     return (
       <aside>
         <p>This is a sidebar!</p>
