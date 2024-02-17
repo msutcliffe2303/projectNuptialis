@@ -1,3 +1,5 @@
+import styled from "styled-components";
+
 const theme = {
   blue: {
     default: "#3f51b5",
