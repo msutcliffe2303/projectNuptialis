@@ -12,7 +12,12 @@ const theme = {
 };
 
 const Button = styled.button `
-  background-color: ${(props) => theme[props.theme].default}
+  background-color: ${(props) => theme[props.theme].default};
+  outline: 0;
+  border: 0;
+  border-radius: 999px;
+  padding: 10px 15px;
+  color: white;
 `;
 
 Button.defaultProps = {
